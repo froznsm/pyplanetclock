@@ -1,5 +1,6 @@
 //Script for generating a clock in the pyplanet interface
-
+#include "time" as TimeLib;
 main(){
-
+  declare Integer currentTime = TimeLib.Time_Timestamp(0);
+  TimeLib.Time_Date();
 }

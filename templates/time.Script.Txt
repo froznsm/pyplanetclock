@@ -1,3 +1,4 @@
+//taken from https://raw.githubusercontent.com/PRGfx/mQscripts/master/lib/Time.Script.txt
 #Include "TextLib" as TextLib
 
 #Const TIME_DATE_ATOM "Y-d-m\\TH:i:sP"

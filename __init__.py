@@ -2,8 +2,8 @@
 Clock
 """
 import asyncio
-
 from pyplanet.apps.config import AppConfig
+from .views import ClockWidget
 
 class Clock(AppConfig):
     game_dependencies = ['trackmania','shootmania']
