@@ -10,4 +10,7 @@ class ClockWidget(WidgetView):
     def __init__(self, app):
         super().__init__(self)
         self.app = app
+        self.manager = app.context.ui
         self.id = 'pyplanet__widgets_clock'
+
+    async def get_

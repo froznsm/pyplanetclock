@@ -1,6 +1,9 @@
 //Script for generating a clock in the pyplanet interface
-#include "time" as TimeLib;
+declare CMLabel clock_text;
 main(){
-  declare Integer currentTime = TimeLib.Time_Timestamp(0);
-  TimeLib.Time_Date();
+  while(True){
+    declase Text ct = currentTime;
+    (Page.GetFirstChild("myLabel5") as CMLabel).SetText(ct);
+    yield;
+  }
 }

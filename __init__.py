@@ -9,7 +9,7 @@ class Clock(AppConfig):
     game_dependencies = ['trackmania','shootmania']
 
     def __init__(self, *args, **kwargs):
-        super().__init__(self, *args, **kwargs)
+        super().__init__(*args, **kwargs)
         self.widget = ClockWidget(self)
 
     async def on_start(self):
