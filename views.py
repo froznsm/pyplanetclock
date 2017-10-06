@@ -12,5 +12,3 @@ class ClockWidget(WidgetView):
         self.manager = app.context.ui
         self.id = 'pyplanet__widgets_clock'
 
-    async def display(self, **kwargs):
-        return await super().display(**kwargs)
