@@ -2,9 +2,8 @@ from pyplanet.views.generics.widget import WidgetView
 
 
 class ClockWidget(WidgetView):
-    widget_x = 0
-    widget_y = 0
-
+    widget_x = 150
+    widget_y = -59
     template_name = 'clock/clock.xml'
 
     def __init__(self, app):
@@ -12,5 +11,3 @@ class ClockWidget(WidgetView):
         self.app = app
         self.manager = app.context.ui
         self.id = 'pyplanet__widgets_clock'
-
-    async def get_
